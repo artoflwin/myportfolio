@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Material-Design-Icons";
+  src: url("../font/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("../font/material-design-icons/Material-Design-Icons.woff2") format("woff2"), url("../font/material-design-icons/Material-Design-Icons.woff") format("woff"), url("../font/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("../font/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg");
+  font-weight: normal;
+  font-style: normal; 
+}
+body{
+    font-family:"Roboto", Myanmar3,Yunghkio,'Masterpiece Uni Sans';
+    font-weight: 600;
+    color: #444444;
+}
+.default_color, .text_b {
+    color: #E91E63;
+}
+.text_b{
+    line-height: 1.5;
+}
+.logo {
+	width: 120px;
+    height: 50px;
+    background-image: url(../img/artoflwin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 15px;
+}
+.owl-prev {
+    position: absolute;
+    top: 24%;
+    left: 0px;
+    font-size: 5rem;
+    color: white;
+    opacity: 0.3;
+    font-family: "Material-Design-Icons";
+}
+.owl-next {
+    position: absolute;
+    top: 24%;
+    right: 0px;
+    font-size: 5rem;
+    color: white;
+    opacity: 0.3;
+    font-family: "Material-Design-Icons";
+}
+.owl-dots {
+    display: flex;
+    position: relative;
+    top: -25px;
+    justify-content: center;
+}
+.owl-dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+.owl-dot.active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.owl-carousel{
+    display: block;
+    margin: 0 auto;
+	background-image: url(https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif);
+	background-size: cover;
+}
+.slide-image
+{
+width: 100%;
+height: 90vh;
+background-position: center center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.slide1{
+	background-image: url(../img/slide1.png);
+}
+.slide2{
+	background-image: url(../img/slide2.png);
+}
+p.hero-text{ font-size: 1.25rem; text-align: justify;}
+/*.slide-wrap{
+	background-color: #e91e63;
+}*/
+.contact-button {
+    display: inline-block ;
+    font-size: 1.3rem;
+    padding: 0px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 90%;
+    margin: 10px 5%;
+    max-width: 300px;
+    height: 100px;
+    color: white;
+    border-radius: 5px;
+}
+.contact-button:before {
+    font-family: 'FontAwesome';
+    content: '\f095';
+    padding-right: 20px;
+    position: relative;
+    top: 13px;
+    left: 8px;
+    font-size: 50px;
+    float: left;
+}
+.contact-large-text {
+    font-size: 1.6rem;
+}
+.contact-button.messenger {
+    background-color: #1787fb;
+}
+.contact-button.messenger:before{
+    content: '\f09a';
+}
+nav ul a{
+/*    color: #444;*/
+    font-weight: normal;
+}
+img.fb-messenger {
+    width: 90%;
+    margin: 10px 5%;
+    max-width: 300px;
+}
+.center{
+    text-align: center;
+}
+@media only screen and (max-width: 601px){
+	.owl-next, .owl-prev {display:none;}
+	p.hero-text{ font-size: 1.2rem; }
+	nav a.button-collapse {
+		left:-9px;}
+	.logo {
+	width: 100px;}
+}
